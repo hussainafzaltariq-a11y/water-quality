@@ -38,7 +38,8 @@
 
 **Explainable AI (XAI):** The app uses feature contribution analysis to show which parameters had the most impact on the prediction. This helps users understand *why* their water is classified in a certain way.
 
-I uses Hugging Face's `google/flan-t5-small` model via the Hugging Face Inference API
+I uses Hugging Face's `google/flan-t5-small` model via the Hugging Face Inference API.
+
 **System Prompt :**
 > *"You are a water quality assistant for Pakistani farmers. Respond in SIMPLE URDU. Given the prediction and feature importance, give practical advice on what the user should do next."*
 
